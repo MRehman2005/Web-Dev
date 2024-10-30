@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+body{
+    background-color: #E6E6E6;
+}
+.text{
+    font-size: 20px;
+    line-height: 1.5;
+    position: absolute;
+    top: 150px;
+    left: 100px;
+}
+.UserInfo{
+    position: relative;
+    top: 280px;
+    left: 100px;
+    font-size: 20px;
+    line-height: 3;
+    width: 400px;
+
+}
+.Email{
+    border: 2px solid black;
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+
+}
+input{
+    padding-left: 10px;
+    font-size: 20px;
+    
+}
+.Pass{
+    border: 2px solid black;
+    height: 50px;
+    width: 400px;
+    border-radius: 15px;
+
+}
+.atag{
+    position: absolute;
+    top: 33rem;
+    left: 6rem;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    
+}
+.for
+{
+    font-size: 20px;
+    position: relative;
+    left: 7rem;
+    display: flex;
+    flex-direction: row;
+    text-decoration: none;
+}
+#box{
+    width: 20px;
+    height: 20px;
+}
+#sign ,#sgoogle{
+    height: 50px;
+    width: 400px;
+ 
+    text-align: center;
+    justify-content: center;
+    position: absolute;
+    top: 37rem;
+    left: 6rem;
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    border-radius: 15px;
+    background-color: rgb(220, 51, 25);
+    color: white;
+    font-size: 20px;
+}
+#sgoogle{
+    top: 41rem;
+    background-color: white;
+    color: black;
+}
+img{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    background-color: white;
+
+}
+
+.gimg{
+    height: 35px;
+    width: 35px;
+    position: absolute;
+    top: 665px;
+    left: 10rem;
+    background-image: url(Google3.jpg);
+    background-size: cover;
+    z-index: 1;
+    background-color: transparent;
+}
+.bimg{
+    height: 57.2rem;
+    width: 43%;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    background-image: url(img.png);
+    background-size: cover;
+}
+.newuser
+{
+    position: absolute;
+    top: 45.4rem;
+    left: 8rem;
+    display: flex;
+    flex-direction: row;
+   
+
+}
+#free{
+    color: rgb(220, 51, 25);
+    text-decoration: none;
+}
